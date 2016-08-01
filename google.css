@@ -1,0 +1,80 @@
+.hptop {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin-left: 170px;
+}
+
+.hpgmail {
+  float: left;
+}
+
+.hpimages {
+  
+}
+
+.hpoptions {
+  width: 30px;
+  height: 30px;
+  background-image: url('https://ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+  background-size: 528px 68px;
+  background-position:-132px -38px;
+  opacity: .55;
+}
+
+.hplogin {
+  
+}
+
+.hplogo {
+  align: center;
+  height: 233px;
+  margin-top: 89px;
+}
+
+.hplogo img{
+ alt: "Google";
+ height: "92";
+ width: 272;
+ padding-top:109px;
+}
+
+.search {
+	float: left;
+	height: 60px;
+}
+
+.search_box {
+    float: left;
+	height: 30px;
+	width: 650px;
+	background-color: white;
+	border: 1px;
+	border-style: solid;
+	border-color: gray;
+}
+
+.search_box:hover {
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+}
+
+input {
+	border: medium none;
+	padding: 0px;
+	margin: 0px;
+	height: auto;
+	width: 100%;
+	background: url(&quot;data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D&quot;) repeat scroll 0% 0% transparent;
+	left: 0px;
+	outline: medium none;
+}
+
+.voice {
+	background: url(data:image/gif;base64,R0lGODlhHAAmAKIHAKqqqsvLy0hISObm5vf394uLiwAAAP///yH5B…EoqQqJKAIBaQOVKHAXr3t7txgBjboSvB8EpLoFZywOAo3LFE5lYs/QW9LT1TRk1V7S2xYJADs=) no-repeat center;
+	background-size: 14px 19px;
+	display: inline-block;
+	height: 23px;
+	width: 17px;
+}
