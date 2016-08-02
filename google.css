@@ -3,14 +3,30 @@
   top: 10px;
   right: 10px;
   margin-left: 170px;
+  -webkit-column-count: 4; /* Chrome, Safari, Opera */
+  -moz-column-count: 4; /* Firefox */
+  column-count: 4;
+  -webkit-column-gap: 0px; /* Chrome, Safari, Opera */
+  -moz-column-gap: 0px; /* Firefox */
+  column-gap: 0px;
 }
 
-#hpgmail {
-  
+.hpgmail a{
+  vertical-align: middle;
+  line-height: 24px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  color: #222;
+  text-decoration: none;
 }
 
-.hpimages {
-  
+.hpimages a{
+  vertical-align: middle;
+  line-height: 24px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  color: #222;
+  text-decoration: none;
 }
 
 .hpoptions {
@@ -20,10 +36,26 @@
   background-size: 528px 68px;
   background-position:-132px -38px;
   opacity: .55;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  color: #222;
 }
 
-.hplogin {
-  
+.hplogin a{
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: #4285f4;
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  display: inline-block;
+  line-height: 28px;
+  padding: 0 12px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .hplogo {
