@@ -45,7 +45,7 @@
 }
 
 .search_box {
-    height: 38px;
+  height: 38px;
 	background-color: white;
 	border: 1px;
 	border-style: solid;
@@ -59,13 +59,7 @@
 	border-top-color: #a0a0a0;
 }
 
-.search_box:focus {
-	border: 2px;
-	border-style: solid;
-	border-color: blue;
-}
-
-input {
+.sbinput {
 	border: medium none;
 	padding: 10px 9px 0;
 	margin: 0px;
@@ -74,6 +68,14 @@ input {
 	background: url(&quot;data:image/gif;base64,R0lGODlhAQABAID/AMDAwAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw%3D%3D&quot;) repeat scroll 0% 0% transparent;
 	left: 0px;
 	outline: medium none;
+}
+
+.bluebdr{
+  height: 38px;
+	background-color: white;
+	border: 1px;
+	border-style: solid;
+	border-color: #4d90fe;  
 }
 
 .voice {
